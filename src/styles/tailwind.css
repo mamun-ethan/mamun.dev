@@ -544,41 +544,34 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-center {
-  text-align: center;
+.container {
+  width: 100%;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+@media (min-width: 576px) {
+  .container {
+    max-width: 576px;
+  }
 }
 
-.text-red-500 {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
+@media (min-width: 960px) {
+  .container {
+    max-width: 960px;
+  }
 }
 
-.text-emerald-600 {
-  --tw-text-opacity: 1;
-  color: rgb(5 150 105 / var(--tw-text-opacity));
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
 }
 
-.underline {
-  text-decoration-line: underline;
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.selection\:font-bold *::-moz-selection {
-  font-weight: 700;
-}
-
-.selection\:font-bold *::selection {
-  font-weight: 700;
-}
-
-.selection\:font-bold::-moz-selection {
-  font-weight: 700;
-}
-
-.selection\:font-bold::selection {
-  font-weight: 700;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
