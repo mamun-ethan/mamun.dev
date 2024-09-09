@@ -8,82 +8,75 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Niconne&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Rock+Salt&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Niconne&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
       rel="stylesheet"
+    />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <!-- main stylesheet -->
     <link rel="stylesheet" href="./src/styles/tailwind.css" />
-    <!-- font asewome icon -->
-    <link rel="stylesheet" href="./assets/icon/all.min.css" />
   </head>
-  <body>
+  <body class="bg-off_white">
     <header>
-      <div class="container mx-auto">
-        <div class="wrapper flex">
-          <div class="hero">
-            <img src="" alt="" />
-          </div>
-          <div class="resume">
-            <a href="" class="text-2xl">get resume</a>
+      <div class="container px-4 mx-auto">
+        <div class="flex p-5 justify-end items-start">
+          <div>
+            <button
+              class="py-2 px-4 border-2 rounded-full capitalize border-blue inline-flex items-center"
+            >
+              <svg
+                class="fill-current w-4 h-4 mr-2"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+              >
+                <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+              </svg>
+              <a href="#" class="text-base text-nevy_blue font-medium font-pop"
+                >get resume</a
+              >
+            </button>
           </div>
         </div>
       </div>
     </header>
-
     <main>
-      <!-- start hero section -->
-      <div class="hero">
-        <h1>front-end <span>developer</span></h1>
-        <p>i design code and buatifully simple things. and i love what i do</p>
-        <div class="img">
-          <img src="./assets/images/me.png" alt="" />
-        </div>
-        <div class="social">
-          <i class="fa-brands fa-linkedin"></i>
-          <i class="fa-brands fa-github"></i>
-        </div>
-      </div>
-      <!-- end hero section -->
-
-      <!-- start about section -->
-      <div class="about">
-        <div class="content">
-          <span class="greeting">Hi</span>
-          <h1>i'm mamun</h1>
-          <span class="greeting_two">nice to meet you</span>
-          <p class="des">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-            deserunt quibusdam veritatis incidunt accusantium culpa pariatur
-            sunt aperiam, repellendus accusamus, rem modi saepe sed sapiente,
-            quo fugit nihil magnam eos alias laudantium doloremque id. Dolor
-            quasi magni a iure quibusdam quas ex rerum cupiditate, ea porro?
-            Neque repellat porro doloribus aliquam odit ipsum similique. Quia
-            eligendi harum atque ullam ad, earum deleniti, fuga quis, minima
-            esse dolorem dolor. Accusantium magnam similique quas enim, ipsa
-            tempore? Deleniti, delectus adipisci odit nisi neque necessitatibus
-            voluptates velit? Dicta voluptate nam dolore porro, quas est cumque
-            dignissimos adipisci quod reiciendis excepturi veniam assumenda
-            animi, pariatur quis dolores vitae obcaecati quos aperiam. Vero in
-            earum deserunt aperiam culpa porro voluptate molestias amet ad,
-            provident quo neque nostrum iure mollitia, adipisci eveniet
-            consequatur aspernatur a quaerat pariatur! Quis totam repellat, ab
-            libero provident aliquam atque. Suscipit beatae cumque dolore illo
-            molestias reprehenderit quos repudiandae totam. Vitae!
-            <span class="hand_point_down">
-              <i class="fa-solid fa-hand-point-up"></i>
-            </span>
-          </p>
-          <div class="service_tag">
-            <span>wordpress website</span>
-            <span>website design</span>
-            <span>frontend development</span>
-          </div>
-          <div class="get_resume">
-            <a href="#">get resume</a>
+      <div>
+        <div class="container mx-auto px-4">
+          <div class="flex flex-col justify-center items-center">
+            <h1
+              class="font-bold font-serif text-nevy_blue capitalize text-[80px]"
+            >
+              front-end
+              <span class="font-nic lowercase text-[28px]">developer</span>
+            </h1>
+            <p class="text-blue text-base tracking-[1.6px]">
+              I design and code beautifully simple things, and I love what I do.
+            </p>
+            <img
+              src="./src/image/my.png"
+              class="w-[160px] h-[160px] my-8 rounded-full"
+              alt=""
+            />
+            <div class="inline-flex space-x-4 text-3xl justify-center">
+              <a href="#">
+                <span>
+                  <i class="fa-brands text-blue fa-linkedin-in"></i>
+                </span>
+              </a>
+              <a href="#">
+                <span> <i class="fa-brands fa-github"></i></span
+              ></a>
+            </div>
           </div>
         </div>
       </div>
-      <!-- end about section -->
     </main>
 
     <script src="./assets/icon/all.min.js"></script>

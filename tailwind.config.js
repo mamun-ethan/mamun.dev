@@ -12,13 +12,19 @@ module.exports = {
       lg: "1200px",
       // => @media (min-width: 1440px) { ... }
     },
-    color: {
-      primary: "#FFFEF8",
-      secondary: "#141C3A",
-      accent: "#0000DC",
+    colors: {
+      off_white: "#FFFBF7",
+      text_gray: "#565656",
+      text_white: "#fff",
+      nevy_blue: "#03091E",
+      blue: "#0000DC",
+      text_sm: "#B3B1C0",
     },
-
-    extend: {},
+    fontFamily: {
+      serif: ["Roboto Serif", "system-ui"],
+      nic: ["Niconne", "system-ui"],
+      pop: ["Poppins", "system-ui"],
+    },
   },
   plugins: [],
 };
