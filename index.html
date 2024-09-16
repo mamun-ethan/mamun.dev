@@ -24,12 +24,12 @@
     <link rel="stylesheet" href="./src/styles/tailwind.css" />
   </head>
   <body class="bg-off_white">
-    <header class="min-h-screen">
+    <header class="md:min-h-screen">
       <div class="container px-4 mx-auto">
         <div class="flex p-5 justify-end items-start">
           <div>
             <button
-              class="py-2 px-4 border-2 rounded-full capitalize border-blue inline-flex items-center"
+              class="py-1.5 md:py-2 px-3 md:px-4 border-2 rounded-full capitalize border-blue inline-flex items-center"
             >
               <svg
                 class="fill-current w-4 h-4 mr-2"
@@ -38,7 +38,9 @@
               >
                 <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
               </svg>
-              <a href="#" class="text-base text-nevy_blue font-medium font-pop"
+              <a
+                href="#"
+                class="text-sm md:text-base text-nevy_blue font-medium font-pop"
                 >get resume</a
               >
             </button>
@@ -47,14 +49,17 @@
       </div>
       <div class="hero">
         <div class="container mx-auto px-4">
-          <div class="flex flex-col justify-center items-center">
+          <div class="flex py-4 flex-col justify-center items-center">
             <h1
-              class="font-bold font-serif text-nevy_blue capitalize text-[80px]"
+              class="font-bold font-serif text-nevy_blue capitalize text-[33px] md:text-[80px]"
             >
               front-end
-              <span class="font-nic lowercase text-[28px]">developer</span>
+              <span
+                class="font-nic lowercase font-medium md:font-bold text-[25px] md:text-[28px]"
+                >developer</span
+              >
             </h1>
-            <p class="text-blue text-base tracking-[1.6px]">
+            <p class="text-blue text-center p-5 text-base tracking-[1.6px]">
               I design and code beautifully simple things, and I love what I do.
             </p>
             <img
@@ -340,6 +345,33 @@
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+            <div
+              class="flex flex-row justify-center items-center text-nevy_blue"
+            >
+              <div class="mt-10 mb-4">
+                <button
+                  class="py-2 px-4 border-2 bg-text_white flex justify-between space-x-2 rounded-full capitalize border-blue inline-flex items-center"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="19"
+                    height="23"
+                    viewBox="0 0 19 23"
+                    fill="none"
+                  >
+                    <path
+                      d="M4.80782 0.377042C5.52643 0.66784 6.21007 1.06982 6.84129 1.57274C7.73274 1.30057 8.64937 1.16384 9.56948 1.16579C10.5197 1.16579 11.4364 1.30754 12.2958 1.5716C12.9267 1.06917 13.61 0.667573 14.3283 0.377042C14.9953 0.106124 15.9455 -0.332832 16.5101 0.413621C16.8928 0.921164 16.9885 1.77164 17.0565 2.42093C17.133 3.14566 17.1512 4.08988 16.9503 5.02723C17.7187 6.21264 18.1818 7.62667 18.1818 9.16759C18.1818 11.5018 17.1235 13.5286 15.557 14.9323C14.8031 15.5994 13.9669 16.1223 13.0785 16.4824C13.2833 17.0425 13.3972 17.6621 13.3972 18.3125V21.7418C13.3972 22.045 13.2964 22.3358 13.1169 22.5501C12.9375 22.7645 12.6941 22.885 12.4403 22.885H6.6987C6.44491 22.885 6.20151 22.7645 6.02205 22.5501C5.8426 22.3358 5.74178 22.045 5.74178 21.7418V20.609C4.82791 20.7428 4.06141 20.6239 3.40975 20.2935C2.72842 19.9483 2.25378 19.4133 1.89685 18.9012C1.5581 18.4165 1.18872 17.3237 0.654757 17.1111C0.535501 17.0637 0.425233 16.9886 0.330251 16.8903C0.235269 16.7919 0.157432 16.6722 0.101185 16.5379C-0.0124125 16.2667 -0.0311757 15.9528 0.0490227 15.665C0.129221 15.3773 0.301812 15.1395 0.528827 15.0038C0.755842 14.8681 1.01869 14.8457 1.25953 14.9415C1.89685 15.1952 2.31215 15.7439 2.59636 16.1852C3.05568 16.8939 3.42889 17.8198 4.15615 18.189C4.45567 18.3411 4.8949 18.4405 5.58197 18.3285L5.74178 18.2896C5.7436 17.6675 5.85205 17.0525 6.06043 16.4824C5.17201 16.1223 4.33587 15.5994 3.58199 14.9323C2.01551 13.5286 0.957146 11.503 0.957146 9.16759C0.957146 7.62896 1.41934 6.21607 2.18584 5.0318C1.98488 4.09445 2.00211 3.14795 2.07866 2.42207L2.08345 2.37863C2.1533 1.71334 2.23464 0.930309 2.62507 0.413621C3.18965 -0.332832 4.14084 0.107267 4.80686 0.378185L4.80782 0.377042Z"
+                      fill="#00004F"
+                    />
+                  </svg>
+                  <a
+                    href="#"
+                    class="text-base text-nevy_blue font-medium font-pop"
+                    >explore more</a
+                  >
+                </button>
               </div>
             </div>
           </div>
@@ -1256,111 +1288,83 @@
           </div>
         </div>
       </div>
-      <!-- posts -->
-      <div class="my-28 mx-32">
-        <div class="container mx-auto px-16">
+    </main>
+
+    <footer>
+      <div class="contact bg-nevy_blue">
+        <div class="container mx-auto p-5 md:py-12 px-5 md:px-16 h-full">
           <div class="text-center my-10 capitalize font-serif">
-            <h1 class="text-[40px] font-bold text-nevy_blue">posts</h1>
-            <p class="font-base text-blue">
-              i talked about some small peace of elements
+            <h1 class="text-[40px] font-bold text-text_white mt-10">
+              lets talk
+            </h1>
+            <p class="font-base text-text_white text-base font-serif">
+              i'll respose back ASAP
             </p>
-          </div>
-          <div class="grid grid-cols-1 space-y-8">
-            <div class="col-span-auto">
-              <div
-                class="flex flex-row justify-between bg-text_white border-2 border-nevy_blue rounded-lg overflow-hidden p-3 space-x-3 capitalize items-center"
-              >
-                <div class="h-2/5 w-full">
-                  <img
-                    style="transform: translate(-13px, 13px)"
-                    src="./src/image/Rectangle 13.png"
-                    class="w-full h-auto"
-                    alt=""
-                  />
-                </div>
-                <div class="h-3/5">
-                  <div>
-                    <h4 class="text-2xl py-4 font-bold text-nevy_blue">
-                      e-learning website
-                    </h4>
-                    <p class="text-[16px] pb-4 text-text_gray font-normal">
-                      when an unknown printer took a galley of type and
-                      scrambled it to make a type specimen book. It has survived
-                      not only five centuries, but also the leap into electronic
-                    </p>
-
-                    <div
-                      class="flex flex-row justify-start items-center rounded-lg gap-5 py-4 text-text_white"
+            <div
+              class="grid grid-cols-1 text-start md:text-center md:grid-cols-2 justify-between px-4 md:px-16 mt-5 md:mt-12 text-text_white items-center"
+            >
+              <div class="md:border-r-4 border-blue">
+                <h3 class="font-pop text-lg font-bold py-5">say hello!</h3>
+                <ul class="flex flex-col space-y-5 items-start">
+                  <li class="space-y-5">
+                    <span class="font-medium text-2xl font-serif mr-5"
+                      >email:</span
                     >
-                      <a
-                        href="#"
-                        class="bg-nevy_blue text-sm items-center text-center rounded-full py-1 px-3"
-                      >
-                        <i class="fa-brands text-blue fa-react"></i>
-                        react.js
-                      </a>
-                      <a
-                        href="#"
-                        class="bg-nevy_blue text-sm items-center text-center rounded-full py-1 px-3"
-                      >
-                        <i class="fa-brands text-blue fa-node"></i>
-                        node js
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                    <span class="lowercase font-pop text-base"
+                      >ethan.mamun@gmail.com</span
+                    >
+                  </li>
+                  <li class="space-y-5">
+                    <span class="font-medium text-2xl font-serif mr-5"
+                      >phone:</span
+                    >
+                    <span class="lowercase font-pop text-base"
+                      >+8801959674025</span
+                    >
+                  </li>
+                </ul>
               </div>
-            </div>
-            <div class="col-span-auto">
-              <div
-                class="flex flex-row justify-between bg-nevy_blue border-2 border-nevy_blue rounded-lg overflow-hidden p-3 space-x-3 capitalize items-center"
-              >
-                <div class="h-2/5 w-full">
-                  <img
-                    style="transform: translate(-13px, 13px)"
-                    src="./src/image/Rectangle 13 (1).png"
-                    class="w-full h-auto"
-                    alt=""
-                  />
-                </div>
-                <div class="h-3/5">
-                  <div>
-                    <h4 class="text-2xl py-4 font-bold text-text_white">
-                      e-learning website
-                    </h4>
-                    <p class="text-[16px] pb-4 text-blue font-normal">
-                      when an unknown printer took a galley of type and
-                      scrambled it to make a type specimen book. It has survived
-                      not only five centuries, but also the leap into electronic
-                    </p>
-
-                    <div
-                      class="flex flex-row justify-start items-center rounded-lg gap-5 py-4 text-nevy_blue"
+              <div>
+                <h3 class="font-pop text-lg font-bold py-5">follow me</h3>
+                <ul
+                  class="flex flex-row justify-around items-start text-[35px]"
+                >
+                  <li>
+                    <a
+                      href="#"
+                      class="rounded-full border-2 px-3 py-1.5 hover:bg-off_white hover:text-nevy_blue border-blue"
                     >
-                      <a
-                        href="#"
-                        class="bg-text_white text-sm items-center text-center rounded-full py-1 px-3"
-                      >
-                        <i class="fa-brands text-blue fa-react"></i>
-                        react.js
-                      </a>
-                      <a
-                        href="#"
-                        class="bg-text_white text-sm items-center text-center rounded-full py-1 px-3"
-                      >
-                        <i class="fa-brands text-blue fa-node"></i>
-                        node js
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                      <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="rounded-full border-2 px-4 py-1.5 hover:bg-off_white hover:text-nevy_blue border-blue"
+                    >
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="rounded-full border-2 px-3 py-1.5 hover:bg-off_white hover:text-nevy_blue border-blue"
+                    >
+                      <i class="fa-brands fa-github-alt"></i>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </main>
-
+      <div
+        class="text-center font-semibold text-text_white items-center bg-blue py-5"
+      >
+        crafted by me
+      </div>
+    </footer>
     <script src="./assets/icon/all.min.js"></script>
   </body>
 </html>
