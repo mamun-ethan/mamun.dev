@@ -592,6 +592,10 @@ video {
   grid-column: span 7 / span 7;
 }
 
+.col-span-10 {
+  grid-column: span 10 / span 10;
+}
+
 .col-start-1 {
   grid-column-start: 1;
 }
@@ -707,6 +711,10 @@ video {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-\[2px\] {
+  height: 2px;
 }
 
 .w-2\/5 {
@@ -1171,6 +1179,14 @@ video {
     margin-top: 3rem;
   }
 
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:h-full {
+    height: 100%;
+  }
+
   .md\:min-h-screen {
     min-height: 100vh;
   }
@@ -1185,6 +1201,14 @@ video {
 
   .md\:grid-rows-12 {
     grid-template-rows: repeat(12, minmax(0, 1fr));
+  }
+
+  .md\:flex-col {
+    flex-direction: column;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
   }
 
   .md\:border-r-4 {
