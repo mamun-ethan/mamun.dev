@@ -580,10 +580,6 @@ video {
   position: relative;
 }
 
-.col-auto {
-  grid-column: auto;
-}
-
 .col-span-10 {
   grid-column: span 10 / span 10;
 }
@@ -598,6 +594,14 @@ video {
 
 .col-span-7 {
   grid-column: span 7 / span 7;
+}
+
+.col-auto {
+  grid-column: auto;
+}
+
+.col-span-12 {
+  grid-column: span 12 / span 12;
 }
 
 .col-start-1 {
@@ -951,6 +955,10 @@ video {
   padding-left: 1rem;
 }
 
+.pr-3 {
+  padding-right: 0.75rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1185,6 +1193,10 @@ video {
     grid-column-start: 6;
   }
 
+  .md\:col-start-8 {
+    grid-column-start: 8;
+  }
+
   .md\:row-span-5 {
     grid-row: span 5 / span 5;
   }
@@ -1199,6 +1211,10 @@ video {
 
   .md\:mt-12 {
     margin-top: 3rem;
+  }
+
+  .md\:block {
+    display: block;
   }
 
   .md\:h-full {
