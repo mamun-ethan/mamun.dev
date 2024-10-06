@@ -28,22 +28,27 @@
       <div class="container px-4 mx-auto">
         <div class="flex p-5 justify-end items-start">
           <div>
-            <button
-              class="py-1.5 md:py-2 px-3 md:px-4 border-2 rounded-full capitalize border-blue inline-flex items-center"
+            <a
+              href="./src/documents/functionalSample.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <svg
-                class="fill-current w-4 h-4 mr-2"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
+              <button
+                class="px-2 py-2 border-2 rounded-full capitalize border-blue inline-flex items-center"
               >
-                <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
-              </svg>
-              <a
-                href="#"
-                class="text-sm md:text-base text-nevy_blue font-medium font-pop"
-                >get resume</a
-              >
-            </button>
+                <svg
+                  class="fill-current w-4 h-4 mr-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                >
+                  <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+                </svg>
+                <span
+                  class="text-sm md:text-base text-nevy_blue font-normal font-pop"
+                  >get resume</span
+                >
+              </button></a
+            >
           </div>
         </div>
       </div>
@@ -93,7 +98,7 @@
       <!-- about me -->
       <div class="overflow-hidden">
         <div class="container px-3 md:px-12 mx-auto">
-          <div class="grid grid-col-1 gap-5 md:grid-cols-2">
+          <div class="grid grid-col-1 pl-4 gap-5 md:grid-cols-2">
             <div>
               <!-- title -->
               <div class="capitalize font-pop">
@@ -114,33 +119,34 @@
                   inventore nesciunt.
                 </p>
                 <br />
-                <p class="font-semibold px-4 md:px-2 md:mb-12 text-lg">
+                <p class="font-semibold pb-5 px-4 md:px-2 md:mb-12 text-lg">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit
                   corrupti et nesciunt soluta doloribus voluptatem, mollitia
                   similique recusandae est laboriosam.
                 </p>
               </div>
               <!-- get resume button -->
-              <div class="flex justify-center md:justify-start items-center">
-                <button
-                  class="py-1.5 md:py-2 px-3 md:px-4 border-2 bg-[#170C0C] rounded-full capitalize border-blue inline-flex items-center"
+              <div class="flex justify-start pt-5 my-5 items-center">
+                <a href="./src/documents/functionalSample.pdf" target="_blank">
+                  <button
+                    class="py-1 md:py-2 px-2 md:px-4 border-2 bg-[#170C0C] rounded-full capitalize border-blue inline-flex items-center"
+                  >
+                    <svg
+                      class="w-4 h-4 mr-2"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"
+                        fill="white"
+                      />
+                    </svg>
+                    <span
+                      class="text-sm md:text-base text-text_white font-medium font-pop"
+                      >get resume</span
+                    >
+                  </button></a
                 >
-                  <svg
-                    class="w-4 h-4 mr-2"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                  >
-                    <path
-                      d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"
-                      fill="white"
-                    />
-                  </svg>
-                  <a
-                    href="#"
-                    class="text-sm md:text-base text-text_white font-medium font-pop"
-                    >get resume</a
-                  >
-                </button>
               </div>
             </div>
             <div class="mt-10">
@@ -223,20 +229,20 @@
 
       <!-- project -->
       <div class="projects my-20">
-        <div class="container mx-auto py-12 px-4">
+        <div class="container mx-auto py-12 px-2">
           <div class="text-center my-10 capitalize font-serif">
             <h1 class="text-[40px] font-bold text-nevy_blue">
               here is my recent works & projects
             </h1>
             <p class="font-base font-pop text-blue">explore my best regard</p>
           </div>
-          <div class="px-4 md:px-32">
+          <div class="md:px-32">
             <div
               class="grid grid-cols-10 md:grid-cols-12 md:grid-rows-12 text-start gap-5"
             >
               <div class="col-span-10 md:col-span-5 md:row-span-7">
                 <div
-                  class="flex flex-col h-auto md:h-full justify-between bg-nevy_blue rounded-lg p-3 capitalize items-center"
+                  class="flex flex-col overflow-hidden h-auto md:h-full justify-between bg-nevy_blue rounded-lg p-3 capitalize items-center"
                 >
                   <div class="h-2/5">
                     <img
@@ -245,7 +251,9 @@
                       alt=""
                     />
                   </div>
-                  <div class="h-3/5 flex flex-col justify-between items-start">
+                  <div
+                    class="h-3/5 w-full flex flex-col justify-between items-start"
+                  >
                     <h4 class="text-2xl py-4 font-bold text-text_white">
                       e-learning website
                     </h4>
@@ -255,7 +263,7 @@
                     </p>
                     <hr class="bg-blue h-[2px] w-full" />
                     <div
-                      class="flex flex-row justify-between w-full items-center bg-nevy_blue rounded-lg gap-5 text-nevy_blue py-4 md:pb-4"
+                      class="flex flex-row justify-between w-full items-center bg-nevy_blue rounded-lg gap-2 text-nevy_blue py-4 md:pb-4"
                     >
                       <a
                         href="#"
@@ -399,7 +407,7 @@
 
               <div class="col-span-10 md:col-span-5 md:row-span-7">
                 <div
-                  class="flex flex-col h-auto md:h-full justify-between bg-nevy_blue rounded-lg p-3 capitalize items-center"
+                  class="flex flex-col overflow-hidden h-auto md:h-full justify-between bg-nevy_blue rounded-lg p-3 capitalize items-center"
                 >
                   <div class="h-2/5">
                     <img
@@ -418,7 +426,7 @@
                     </p>
                     <hr class="bg-blue h-[2px] w-full" />
                     <div
-                      class="flex flex-row justify-between w-full items-center bg-nevy_blue rounded-lg gap-5 text-nevy_blue py-4 md:pb-4"
+                      class="flex flex-row justify-between w-full items-center bg-nevy_blue rounded-lg gap-2 text-nevy_blue py-4 md:pb-4"
                     >
                       <a
                         href="#"
