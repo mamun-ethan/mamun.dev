@@ -129,7 +129,7 @@
               <div class="flex justify-start pt-5 my-5 items-center">
                 <a href="./src/documents/functionalSample.pdf" target="_blank">
                   <button
-                    class="py-1 md:py-2 px-2 md:px-4 border-2 bg-[#170C0C] rounded-full capitalize border-blue inline-flex items-center"
+                    class="py-1.5 md:py-2 px-2.5 md:px-4 border-2 bg-[#170C0C] rounded-full capitalize border-blue inline-flex items-center"
                   >
                     <svg
                       class="w-4 h-4 mr-2"
@@ -5153,27 +5153,30 @@
                     <span class="font-medium text-2xl font-serif mr-5"
                       >email:</span
                     >
-                    <span class="lowercase font-pop text-text_sm text-base"
+                    <span
+                      id="email"
+                      class="lowercase font-pop text-text_sm text-base"
                       >ethan.mamun@gmail.com</span
                     >
                     <span
-                      class="ml-5 text-xs border-2 border-blue px-2 py-1 cursor-pointer rounded-full"
-                    >
-                      copy</span
+                      class="copy-span ml-5 text-xs border-2 border-blue px-2 py-1 cursor-pointer rounded-full"
+                      data-copy="email"
+                      >copy</span
                     >
                   </li>
                   <li class="space-y-5 relative">
                     <span class="font-medium text-2xl font-serif mr-5"
                       >call/whatsapp:</span
                     >
-
-                    <span class="lowercase font-pop text-text_sm text-base"
+                    <span
+                      id="phone"
+                      class="lowercase font-pop text-text_sm text-base"
                       >+8801959674025</span
                     >
                     <span
-                      class="ml-5 text-xs border-2 border-blue px-2 py-1 cursor-pointer rounded-full"
-                    >
-                      copy</span
+                      class="copy-span ml-5 text-xs border-2 border-blue px-2 py-1 cursor-pointer rounded-full"
+                      data-copy="phone"
+                      >copy</span
                     >
                   </li>
                 </ul>
@@ -5228,5 +5231,6 @@
       </div>
     </footer>
     <script src="./assets/icon/all.min.js"></script>
+    <script src="./src/js/script.js"></script>
   </body>
 </html>
