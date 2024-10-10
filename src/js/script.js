@@ -26,3 +26,12 @@ document.querySelectorAll(".copy-span").forEach((span) => {
     }
   });
 });
+
+// click to navigate project details page
+const divs = document.querySelectorAll(".weather");
+
+divs.forEach((div) => {
+  div.addEventListener("click", function () {
+    window.open("https://github.com/mamun-ethan/Weather-app", "_blank");
+  });
+});

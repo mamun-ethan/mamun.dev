@@ -28,21 +28,11 @@
       <div class="container px-4 mx-auto">
         <div class="flex p-5 justify-end items-start">
           <div>
-            <a
-              href="./src/documents/functionalSample.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="#contact">
               <button
-                class="px-4 py-2 border-2 rounded-full capitalize border-blue inline-flex items-center"
+                class="px-4 py-2 border-2 flex flex-row sjustify-between space-x-2 rounded-full capitalize border-blue items-center"
               >
-                <svg
-                  class="fill-current w-4 h-4 mr-2"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                >
-                  <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
-                </svg>
+                <i class="fa-solid fa-paperclip"></i>
                 <span
                   class="text-sm md:text-base text-nevy_blue font-normal font-pop"
                   >hire me</span
@@ -268,22 +258,25 @@
                 <div
                   class="flex flex-col overflow-hidden h-auto md:h-full justify-between bg-nevy_blue rounded-lg p-3 capitalize items-center"
                 >
-                  <div class="h-2/5">
+                  <div class="weather cursor-pointer h-2/5">
                     <img
-                      src="./assets/images/Rectangle 9 (1).png"
-                      class="w-full h-auto"
+                      src="./src/image/weather-app.png"
+                      class="w-full rounded-lg h-auto"
                       alt=""
                     />
                   </div>
                   <div
                     class="h-3/5 w-full flex flex-col justify-between items-start"
                   >
-                    <h4 class="text-2xl py-4 font-bold text-text_white">
-                      e-learning website
+                    <h4
+                      class="text-2xl cursor-pointer hover:underline weather font-bold text-text_white"
+                    >
+                      weather app
                     </h4>
-                    <p class="text-[16px] pb-4 text-text_sm font-normal">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Nihil nemo sed et quis corrupti? Eaque quisquam eveniet
+                    <p class="text-[16px] pb-2 text-text_sm font-normal">
+                      This Weather App provides real-time weather updates,
+                      including the current time, date, wind speed, temperature,
+                      and weather status
                     </p>
                     <hr class="bg-blue h-[2px] w-full" />
                     <div
@@ -293,18 +286,62 @@
                         href="#"
                         class="text-text_white flex space-x-2 border-2 border-blue text-sm items-center text-center rounded-full py-1 px-3"
                       >
-                        <i class="fa-brands text-blue fa-react"></i>
-                        <span>express.js</span>
+                        <svg
+                          width="22"
+                          height="22"
+                          viewBox="0 0 28 25"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M14 14.9316C15.3807 14.9316 16.5 13.8124 16.5 12.4316C16.5 11.0509 15.3807 9.93164 14 9.93164C12.6193 9.93164 11.5 11.0509 11.5 12.4316C11.5 13.8124 12.6193 14.9316 14 14.9316Z"
+                            fill="#00D8FF"
+                          />
+                          <path
+                            d="M14 18.1634C10.9951 18.2359 7.99785 17.8308 5.12 16.9634C3.79062 16.542 2.55073 15.8782 1.463 15.0054C1.04779 14.7074 0.702025 14.3231 0.449479 13.8787C0.196934 13.4344 0.0435939 12.9407 0 12.4314C0 10.7784 1.816 9.15844 4.858 8.09844C7.81291 7.15996 10.9 6.70477 14 6.75044C17.0587 6.70815 20.1044 7.15512 23.022 8.07444C24.3021 8.48306 25.4999 9.11479 26.56 9.94044C26.9675 10.2251 27.3077 10.5957 27.5565 11.0261C27.8053 11.4565 27.9567 11.9362 28 12.4314C28 14.1494 25.97 15.8904 22.7 16.9724C19.8779 17.8118 16.9438 18.2135 14 18.1634ZM14 7.94644C11.0342 7.90768 8.08102 8.34041 5.251 9.22844C2.451 10.2054 1.196 11.5414 1.196 12.4284C1.196 13.3564 2.545 14.8154 5.507 15.8284C8.26004 16.6545 11.1266 17.0389 14 16.9674C16.8164 17.0178 19.6239 16.6367 22.325 15.8374C25.4 14.8184 26.8 13.3574 26.8 12.4314C26.7494 12.1137 26.6335 11.8099 26.4597 11.5392C26.2858 11.2685 26.0578 11.0367 25.79 10.8584C24.8417 10.1257 23.7717 9.56579 22.629 9.20444C19.8379 8.32883 16.9249 7.90416 14 7.94644Z"
+                            fill="#00D8FF"
+                          />
+                          <path
+                            d="M8.3201 24.9005C7.8536 24.9112 7.39262 24.798 6.9841 24.5725C5.5521 23.7465 5.0561 21.3645 5.6571 18.1995C6.3205 15.1709 7.46861 12.2692 9.0571 9.60653C10.5482 6.93587 12.4566 4.52073 14.7101 2.45253C15.7036 1.54764 16.8492 0.825527 18.0941 0.319533C18.5446 0.109074 19.0358 0 19.5331 0C20.0304 0 20.5216 0.109074 20.9721 0.319533C22.4611 1.17753 22.9541 3.80553 22.2591 7.17853C21.5761 10.0431 20.4577 12.786 18.9431 15.3115C17.5046 17.9508 15.6563 20.3449 13.4671 22.4045C12.4379 23.3453 11.2434 24.0875 9.9441 24.5935C9.42405 24.7871 8.87491 24.8909 8.3201 24.9005ZM10.0931 10.2005C8.57799 12.7502 7.47761 15.5245 6.8331 18.4195C6.2801 21.3345 6.8111 23.0875 7.5831 23.5335C8.3831 23.9965 10.3251 23.5575 12.6831 21.4975C14.7732 19.5246 16.5375 17.2328 17.9101 14.7075C19.361 12.293 20.4338 9.67067 21.0911 6.93153C21.7451 3.75653 21.1801 1.81253 20.3781 1.35053C20.0775 1.23554 19.7563 1.18408 19.4348 1.1994C19.1133 1.21471 18.7984 1.29648 18.5101 1.43953C17.4018 1.89699 16.3829 2.54626 15.5001 3.35753C13.3472 5.33874 11.5243 7.65081 10.1001 10.2065L10.0931 10.2005Z"
+                            fill="#00D8FF"
+                          />
+                          <path
+                            d="M19.6772 24.9135C18.3222 24.9135 16.6012 24.0935 14.8092 22.5525C12.5164 20.4652 10.5758 18.0215 9.06217 15.3155C7.49328 12.6897 6.35424 9.82992 5.68817 6.8445C5.39999 5.53092 5.34649 4.17671 5.53017 2.8445C5.57336 2.35046 5.72409 1.87185 5.97181 1.44223C6.21953 1.0126 6.55824 0.642375 6.96417 0.357498C8.45117 -0.503502 10.9742 0.381498 13.5492 2.6675C15.6898 4.68968 17.5076 7.0282 18.9392 9.6015C20.5072 12.166 21.6582 14.9631 22.3492 17.8885C22.6503 19.2502 22.6967 20.6559 22.4862 22.0345C22.4363 22.543 22.2769 23.0346 22.019 23.4756C21.7611 23.9167 21.4108 24.2967 20.9922 24.5895C20.5902 24.8118 20.1364 24.9236 19.6772 24.9135ZM10.0972 14.7135C11.5493 17.2994 13.4031 19.6383 15.5892 21.6425C17.8382 23.5775 19.6222 23.9935 20.3892 23.5425C21.1892 23.0775 21.7792 21.1795 21.1712 18.1085C20.5052 15.3154 19.4012 12.6453 17.9002 10.1975C16.534 7.73462 14.7989 5.49536 12.7552 3.5575C10.3312 1.4055 8.36517 0.924499 7.56417 1.3885C7.31465 1.5915 7.10987 1.84397 6.96272 2.13001C6.81557 2.41605 6.72924 2.72946 6.70917 3.0505C6.5503 4.23859 6.6021 5.44539 6.86217 6.6155C7.50305 9.47046 8.59545 12.2048 10.0982 14.7155L10.0972 14.7135Z"
+                            fill="#00D8FF"
+                          />
+                        </svg>
+
+                        <span>react.js</span>
                       </a>
                       <a
                         href="#"
                         class="border-2 flex space-x-2 border-blue text-text_white text-sm items-center text-center rounded-full py-1 px-3"
                       >
-                        <i class="fa-brands fa-node"></i>
-                        <span>next.js</span>
+                        <svg
+                          width="22"
+                          height="22"
+                          viewBox="0 0 30 33"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g clip-path="url(#clip0_218_29)">
+                            <path
+                              d="M15.001 6.60046C11.0009 6.60046 8.50176 8.79961 7.50098 13.1997C9.00051 11.0003 10.7511 10.1756 12.7505 10.7255C13.8921 11.0384 14.708 11.949 15.6115 12.9581C17.082 14.5996 18.784 16.4999 22.501 16.4999C26.5008 16.4999 29.0002 14.3005 30.001 9.89943C28.501 12.0999 26.7511 12.9251 24.7512 12.3749C23.6098 12.0617 22.7949 11.1514 21.8902 10.1423C20.4207 8.5008 18.7191 6.60046 15.001 6.60046ZM7.50098 16.4999C3.50113 16.4999 1.00176 18.6993 0.000976562 23.1005C1.50082 20.8999 3.25066 20.0748 5.25051 20.6249C6.39215 20.9382 7.20801 21.8485 8.11152 22.8576C9.58199 24.4991 11.284 26.3994 15.001 26.3994C19.0008 26.3994 21.5002 24.2003 22.501 19.8002C21.001 21.9997 19.2511 22.8244 17.2512 22.2744C16.1098 21.9614 15.2949 21.0509 14.3902 20.0418C12.9207 18.4003 11.2191 16.4999 7.50098 16.4999Z"
+                              fill="#38BDF8"
+                            />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_218_29">
+                              <rect width="30" height="33" fill="white" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+
+                        <span>tailwind</span>
                       </a>
                       <a
-                        href="#"
+                        href="https://rad-platypus-eeb4c1.netlify.app/"
+                        target="_blank"
                         class="capitalize flex space-x-2 mr-5 text-text_white font-semibold"
                       >
                         <span class="text-xl">🚀</span>
@@ -321,15 +358,15 @@
                 <div
                   class="flex flex-col md:flex-row bg-nevy_blue rounded-lg justify-between p-3 capitalize items-center"
                 >
-                  <div class="w-full md:w-2/5">
+                  <div class="w-full md:mb-auto md:w-2/5">
                     <img
-                      src="./assets/images/Rectangle 10.png"
-                      class="m-auto hidden md:block md:h-auto md:w-full"
+                      src="./src/image/weather-250px.png"
+                      class="m-auto rounded-lg hidden md:block md:h-auto md:w-full"
                       alt=""
                     />
                     <img
-                      src="./assets/images/Rectangle 9 (1).png"
-                      class="m-auto md:hidden md:h-auto md:w-full"
+                      src="./src/image/weather-app.png"
+                      class="m-auto md:hidden rounded-lg md:h-auto md:w-full"
                       alt=""
                     />
                   </div>
@@ -5153,7 +5190,7 @@
       </div>
     </main>
 
-    <footer>
+    <footer id="contact">
       <div class="contact bg-nevy_blue">
         <div class="container mx-auto p-5 md:py-12 px-5 md:px-16 h-full">
           <div class="text-center my-10 capitalize font-serif">
